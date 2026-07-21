@@ -150,42 +150,58 @@
   </section>
 
   <!-- OUR FOCUS -->
-  <section id="focus" style="max-width: 1180px; margin: 0 auto; padding: clamp(40px,6vw,66px) clamp(18px,4vw,30px);">
-    <div style="text-align: center; max-width: 640px; margin: 0 auto 30px;">
-      <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px;">Our Focus</div>
-      <p style="font-family: 'Noto Serif Bengali', serif; font-size: clamp(22px, 4.5vw, 34px); line-height: 1.25; color: #2E2016; margin: 0 0 4px; display: var(--bn);">আমাদের কাজের চারটি স্তম্ভ</p>
-      <h2 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: clamp(22px, 4vw, 32px); line-height: 1.12; color: #6B5844; margin: 0;">Four pillars of our work</h2>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px;">
-      <div style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px;">
-        <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 21px; margin-bottom: 14px;">ॐ</div>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">ধর্ম</p>
-        <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Religion</h3>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">নিত্য পূজা ও শাস্ত্র অধ্যয়নের মাধ্যমে আধ্যাত্মিক বিকাশ।</p>
-        <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0;">Spiritual development through daily worship and the study of scripture.</p>
+    <section id="focus" style="max-width: 1180px; margin: 0 auto; padding: clamp(40px,6vw,66px) clamp(18px,4vw,30px);">
+      <div style="text-align: center; max-width: 640px; margin: 0 auto 30px;">
+        <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px;">Our Focus</div>
+        <p style="font-family: 'Noto Serif Bengali', serif; font-size: clamp(22px, 4.5vw, 34px); line-height: 1.25; color: #2E2016; margin: 0 0 4px; display: var(--bn);">আমাদের কাজের চারটি স্তম্ভ</p>
+        <h2 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: clamp(22px, 4vw, 32px); line-height: 1.12; color: #6B5844; margin: 0;">Four pillars of our work</h2>
       </div>
-      <div style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px;">
-        <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 19px; margin-bottom: 14px;">✦</div>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">শিক্ষা</p>
-        <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Education</h3>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">মানুষ গড়া — প্রথম প্রজন্মের শিক্ষার্থীদের জন্য বিনামূল্যে শিক্ষাদান।</p>
-        <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0;">Man-making — free coaching for first-generation learners.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px;">
+        <div onClick="{{ religionOpen }}" style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px; cursor: pointer; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;" style-hover="box-shadow: 0 14px 30px rgba(46,32,22,0.12); transform: translateY(-3px); border-color: color-mix(in oklab, var(--accent) 40%, transparent);">
+          <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 21px; margin-bottom: 14px;">ॐ</div>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">ধর্ম</p>
+          <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Religion</h3>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">নিত্য পূজা ও শাস্ত্র অধ্যয়নের মাধ্যমে আধ্যাত্মিক বিকাশ।</p>
+          <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0 0 14px;">Spiritual development through daily worship and the study of scripture.</p>
+          <span style="display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent);">
+            <span style="display: grid; place-items: center; width: 22px; height: 22px; border-radius: 5px; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); font-size: 12px;">◨</span>
+            View gallery · {{ religionCount }} photos →
+          </span>
+        </div>
+        <div onClick="{{ educationOpen }}" style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px; cursor: pointer; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;" style-hover="box-shadow: 0 14px 30px rgba(46,32,22,0.12); transform: translateY(-3px); border-color: color-mix(in oklab, var(--accent) 40%, transparent);">
+          <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 19px; margin-bottom: 14px;">✦</div>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">শিক্ষা</p>
+          <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Education</h3>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">মানুষ গড়া — প্রথম প্রজন্মের শিক্ষার্থীদের জন্য বিনামূল্যে শিক্ষাদান।</p>
+          <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0 0 14px;">Man-making — free coaching for first-generation learners.</p>
+          <span style="display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent);">
+            <span style="display: grid; place-items: center; width: 22px; height: 22px; border-radius: 5px; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); font-size: 12px;">◨</span>
+            View gallery · {{ educationCount }} photos →
+          </span>
+        </div>
+        <div onClick="{{ healthOpen }}" style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px; cursor: pointer; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;" style-hover="box-shadow: 0 14px 30px rgba(46,32,22,0.12); transform: translateY(-3px); border-color: color-mix(in oklab, var(--accent) 40%, transparent);">
+          <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 19px; margin-bottom: 14px;">✚</div>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">স্বাস্থ্য</p>
+          <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Health</h3>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">বিনামূল্যে হোমিওপ্যাথি, চক্ষু শিবির ও আত্মরক্ষার প্রশিক্ষণ।</p>
+          <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0 0 14px;">Free homeopathy, eye camps, and self-defence training.</p>
+          <span style="display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent);">
+            <span style="display: grid; place-items: center; width: 22px; height: 22px; border-radius: 5px; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); font-size: 12px;">◨</span>
+            View gallery · {{ healthCount }} photos →
+          </span>
+        </div>
+        <div onClick="{{ sevaOpen }}" style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px; cursor: pointer; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;" style-hover="box-shadow: 0 14px 30px rgba(46,32,22,0.12); transform: translateY(-3px); border-color: color-mix(in oklab, var(--accent) 40%, transparent);">
+          <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 21px; margin-bottom: 14px;">☘</div>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">নর নারায়ণ সেবা</p>
+          <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Nara Narayan Seva</h3>
+          <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">দরিদ্র ও অসহায়ের সেবা — অন্ন, বস্ত্র ও যত্ন।</p>
+          <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0 0 14px;">Serving the poor and distressed — food, clothing, and care.</p>
+          <span style="display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent);">
+            <span style="display: grid; place-items: center; width: 22px; height: 22px; border-radius: 5px; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); font-size: 12px;">◨</span>
+            View gallery · {{ sevaCount }} photos →
+          </span>
+        </div>
       </div>
-      <div style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px;">
-        <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 19px; margin-bottom: 14px;">✚</div>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">স্বাস্থ্য</p>
-        <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Health</h3>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">বিনামূল্যে হোমিওপ্যাথি, চক্ষু শিবির ও আত্মরক্ষার প্রশিক্ষণ।</p>
-        <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0;">Free homeopathy, eye camps, and self-defence training.</p>
-      </div>
-      <div style="background: #FBF6EC; border: 1px solid rgba(46,32,22,0.10); border-radius: var(--radius); padding: 22px 20px;">
-        <div style="width: 42px; height: 42px; border-radius: 50%; background: color-mix(in oklab, var(--accent) 14%, #FBF6EC); color: var(--accent); display: grid; place-items: center; font-size: 21px; margin-bottom: 14px;">☘</div>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 19px; color: var(--accent); margin: 0 0 1px; display: var(--bn);">নর নারায়ণ সেবা</p>
-        <h3 style="font-family: 'Marcellus', serif; font-weight: 400; font-size: 19px; color: #6B5844; margin: 0 0 8px;">Nara Narayan Seva</h3>
-        <p style="font-family: 'Noto Serif Bengali', serif; font-size: 14.5px; line-height: 1.55; color: #55452F; margin: 0 0 4px; display: var(--bn);">দরিদ্র ও অসহায়ের সেবা — অন্ন, বস্ত্র ও যত্ন।</p>
-        <p style="font-size: 14px; line-height: 1.55; color: #6B5844; margin: 0;">Serving the poor and distressed — food, clothing, and care.</p>
-      </div>
-    </div>
   </section>
 
   <!-- TEMPLES -->
@@ -380,5 +396,139 @@
   </footer>
 
 </div>
+
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180,&quot;height&quot;:900},&quot;accentColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#B14A2C&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#B14A2C&quot;,&quot;#A63C46&quot;,&quot;#8A5A2B&quot;,&quot;#3F5E4E&quot;],&quot;section&quot;:&quot;Theme&quot;},&quot;corners&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;soft&quot;,&quot;options&quot;:[&quot;soft&quot;,&quot;sharp&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;showBengali&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  state = { galleryKey: null, galleryIndex: 0 };
+
+  galleries() {
+    return {
+      religion: { title: 'Religion & Worship', titleBn: 'ধর্ম ও উপাসনা', images: this.religionImages() },
+      seva: { title: 'Nara Narayan Seva', titleBn: 'নর নারায়ণ সেবা', images: this.sevaImages() },
+      education: { title: 'Education', titleBn: 'শিক্ষা', images: this.educationImages() },
+      health: { title: 'Health & Self-defence', titleBn: 'স্বাস্থ্য ও আত্মরক্ষা', images: this.healthImages() },
+    };
+  }
+
+  healthImages() {
+    return [
+      { src: 'images/health-eyecamp-1.jpeg', cap: 'Free Chokkhu Parikkha Shibir — an eye-check camp with the Jayeeta Ganguli Dutta Memorial Trust.' },
+      { src: 'images/health-eyecamp-2.jpeg', cap: 'Free eye-check camp and cataract operations, held with the Jayeeta Ganguli Dutta Memorial Trust.' },
+    ];
+  }
+
+  educationImages() {
+    return [
+      { src: 'images/edu-alochona-1.jpeg', cap: 'Alochona Sabha — a discussion meeting with monks and devotees.' },
+      { src: 'images/edu-alochona-2.jpeg', cap: 'Alochona Sabha — a discussion meeting with monks and devotees.' },
+      { src: 'images/edu-brikkho-1.jpeg', cap: 'Brikkho Ropon — a tree-planting drive with the young.' },
+      { src: 'images/edu-brikkho-2.jpeg', cap: 'Brikkho Ropon — a tree-planting drive with the young.' },
+      { src: 'images/edu-brikkho-3.jpeg', cap: 'Brikkho Ropon — a tree-planting drive with the young.' },
+      { src: 'images/edu-brikkho-4.jpeg', cap: 'Brikkho Ropon — a tree-planting drive with the young.' },
+      { src: 'images/edu-brikkho-5.jpeg', cap: 'Brikkho Ropon — a tree-planting drive with the young.' },
+    ];
+  }
+
+  activeImages() {
+    const g = this.galleries()[this.state.galleryKey];
+    return g ? g.images : [];
+  }
+
+  sevaImages() {
+    return [
+      { src: 'images/seva-kombol-1.jpeg', cap: 'Kombol Bitoron — winter blanket distribution to the needy.' },
+      { src: 'images/seva-kombol-2.jpeg', cap: 'Kombol Bitoron — winter blanket distribution to the needy.' },
+      { src: 'images/seva-kombol-3.jpeg', cap: 'Kombol Bitoron — winter blanket distribution to the needy.' },
+    ];
+  }
+
+  religionImages() {
+    return [
+      { src: 'images/religion-diksha-1.jpeg', cap: 'Annual Diksha — initiation at the Sevashram.' },
+      { src: 'images/religion-diksha-2.jpeg', cap: 'Annual Diksha — initiation at the Sevashram.' },
+      { src: 'images/religion-diksha-3.jpeg', cap: 'Annual Diksha — initiation at the Sevashram.' },
+      { src: 'images/religion-jagadhatri-1.jpeg', cap: 'Jagaddhatri Puja at the Mandir.' },
+      { src: 'images/religion-jagadhatri-2.jpeg', cap: 'Jagaddhatri Puja at the Mandir.' },
+      { src: 'images/religion-jagadhatri-3.jpeg', cap: 'Maa Jagaddhatri — “I am Durga, Lakshmi, Saraswati and Kali.”' },
+    ];
+  }
+
+  componentDidMount() {
+    this._onKey = (e) => {
+      if (!this.state.galleryKey) return;
+      if (e.key === 'Escape') this.setState({ galleryKey: null });
+      else if (e.key === 'ArrowRight') this._step(1);
+      else if (e.key === 'ArrowLeft') this._step(-1);
+    };
+    window.addEventListener('keydown', this._onKey);
+  }
+  componentWillUnmount() {
+    if (this._onKey) window.removeEventListener('keydown', this._onKey);
+  }
+
+  _step(d) {
+    const n = this.activeImages().length;
+    if (!n) return;
+    this.setState(s => ({ galleryIndex: ((s.galleryIndex + d) % n + n) % n }));
+  }
+
+  renderVals() {
+    const accent = this.props.accentColor ?? '#B14A2C';
+    const radius = (this.props.corners === 'sharp') ? '2px' : '14px';
+    const bnDisplay = (this.props.showBengali === false) ? 'none' : 'block';
+
+    const galleries = this.galleries();
+    const key = this.state.galleryKey;
+    const idx = this.state.galleryIndex;
+    const imgs = this.activeImages();
+    const cur = imgs[idx] || imgs[0] || { src: '', cap: '' };
+    const active = key ? galleries[key] : null;
+
+    const dotBase = 'width: 10px; height: 10px; padding: 0; border-radius: 50%; border: none; cursor: pointer; transition: transform 0.15s, background 0.15s;';
+    const galleryDots = imgs.map((im, i) => ({
+      go: () => this.setState({ galleryIndex: i }),
+      style: dotBase + (i === idx
+        ? ' background: ' + accent + '; transform: scale(1.3);'
+        : ' background: rgba(247,240,228,0.35);'),
+    }));
+
+    // Global image styles across both galleries, in template order (religion 0-5, seva 6-8)
+    const gBase = 'position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; transition: opacity 0.35s ease;';
+    const gStyles = {};
+    let gi = 0;
+    ['religion', 'seva', 'education', 'health'].forEach((k) => {
+      galleries[k].images.forEach((im, li) => {
+        const visible = (k === key && li === idx);
+        gStyles['gStyle' + gi] = gBase + ' opacity: ' + (visible ? '1' : '0') + '; pointer-events: none;';
+        gi++;
+      });
+    });
+
+    return {
+      accent, radius, bnDisplay,
+      ...gStyles,
+      religionCount: galleries.religion.images.length,
+      sevaCount: galleries.seva.images.length,
+      religionOpen: () => this.setState({ galleryKey: 'religion', galleryIndex: 0 }),
+      sevaOpen: () => this.setState({ galleryKey: 'seva', galleryIndex: 0 }),
+      educationCount: galleries.education.images.length,
+      educationOpen: () => this.setState({ galleryKey: 'education', galleryIndex: 0 }),
+      healthCount: galleries.health.images.length,
+      healthOpen: () => this.setState({ galleryKey: 'health', galleryIndex: 0 }),
+      galleryOpen: !!key,
+      galleryTitle: active ? active.title : '',
+      galleryTitleBn: active ? active.titleBn : '',
+      galleryClose: () => this.setState({ galleryKey: null }),
+      galleryStop: (e) => e.stopPropagation(),
+      galleryNext: (e) => { if (e) e.stopPropagation(); this._step(1); },
+      galleryPrev: (e) => { if (e) e.stopPropagation(); this._step(-1); },
+      galleryCaption: cur.cap,
+      galleryCounter: (idx + 1) + ' / ' + imgs.length,
+      galleryDots,
+    };
+  }
+}
+</script>
+
 </body>
 </html>
